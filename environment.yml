@@ -1,6 +1,7 @@
 name: medicare-medicaid-analysis-viz-ml
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.12
   - pandas
@@ -9,7 +10,11 @@ dependencies:
   - jupyterlab
   - jupyterlab_widgets
   - ipywidgets
+  - camelot-py
   - seaborn
   - plotly
   - nodejs
   - pyarrow
+  - pip
+  - pip:
+    - pdfquery
